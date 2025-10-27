@@ -10,7 +10,7 @@ The project demonstrates batch and streaming data ingestion, predictive modeling
 - Collect historical and real-time stock data using public APIs within rate-limit constraints.  
 - Design a **normalized SQL schema** for storing tickers, time-series data, engineered features, and predictions.  
 - Implement **batch ingestion** (historical data) and **stream ingestion** (recent updates).  
-- Integrate cloud storage via **AWS S3** or **GCP BigQuery** for scalability.  
+- Integrate cloud storage via **GCP BigQuery** for scalability.  
 - Generate **eight advanced SQL analytical reports** measuring volatility, correlation, accuracy trends, and more.  
 - Log all ETL operations for traceability and reproducibility.
 
