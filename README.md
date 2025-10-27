@@ -36,7 +36,7 @@ The project demonstrates batch and streaming data ingestion, predictive modeling
 
 ## 🔗 Data Sources
 - [Yahoo Finance API](https://finance.yahoo.com/)
-- - [Alpha Vantage API](https://www.alphavantage.co/documentation/) (If required)
+- [Alpha Vantage API](https://www.alphavantage.co/documentation/) (If required)
   
 All data used is publicly available.  
 No restricted, proprietary, or brokerage data has been accessed or scraped.
