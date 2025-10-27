@@ -74,6 +74,6 @@ Subject to change
 
 ## 📈 Progress Tracking
 Team progress and milestone completion have been documented in  
-[`progress_tracker.xlsx`](https://northeastern-my.sharepoint.com/:x:/r/personal/kumar_riti_northeastern_edu/Documents/progress_tracker.xlsx?d=wa7fec4b0e5154b40be4c327f848a7cf3&csf=1&web=1&e=UwO6qY)).  
+[`progress_tracker.xlsx`](https://northeastern-my.sharepoint.com/:x:/r/personal/kumar_riti_northeastern_edu/Documents/progress_tracker.xlsx?d=wa7fec4b0e5154b40be4c327f848a7cf3&csf=1&web=1&e=UwO6qY).  
 This Excel sheet logs major deliverables, deadlines, and issue resolutions for transparency.
 
