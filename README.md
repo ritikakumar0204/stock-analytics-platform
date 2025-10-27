@@ -19,9 +19,9 @@ The project demonstrates batch and streaming data ingestion, predictive modeling
 ## 👥 Team Members and Roles
 | Member | Role | Key Contributions |
 |:--|:--|:--|
-| **Ritika Kumar** | Data Pipeline Engineer | API integration, ETL logging, and pipeline orchestration |  Cloud Engineer
-| **Tarun Sethi** | Database Architect | SQL schema design, indexing, and ER diagram |  S3/BigQuery setup and workflow automation
-| **Raia Vikas Furtado** | ML Engineer | Feature extraction, model training, and evaluation metrics |
+| **Ritika Kumar** | Data Pipeline Engineer | API integration, ETL pipeline development, data cleaning, and cloud storage integration (GCP BigQuery) |
+| **Raisa Vikas Furtado** | Database Architect | Database design and implementation, SQL schema creation, normalization, indexing, and ER diagram development |
+| **Tarun Sethi** | ML Engineer | Feature engineering, model training and evaluation (ARIMA, Prophet, XGBoost, LSTM), and visualization dashboard design (Plotly / Tableau) |
 
 ---
 
@@ -35,8 +35,8 @@ The project demonstrates batch and streaming data ingestion, predictive modeling
 ---
 
 ## 🔗 Data Sources
-- [Alpha Vantage API](https://www.alphavantage.co/documentation/)
 - [Yahoo Finance API](https://finance.yahoo.com/)
+- - [Alpha Vantage API](https://www.alphavantage.co/documentation/) (If required)
   
 All data used is publicly available.  
 No restricted, proprietary, or brokerage data has been accessed or scraped.
@@ -44,6 +44,7 @@ No restricted, proprietary, or brokerage data has been accessed or scraped.
 ---
 
 ## 🗄️ Database Design
+Subject to change
 
 **Core Tables**
 - `stocks` – ticker, company name, sector, industry  
