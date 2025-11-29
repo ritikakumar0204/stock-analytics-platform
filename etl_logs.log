@@ -1,0 +1,121 @@
+2025-11-28 13:20:34,421 - ERROR - 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/AAPL?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=AAPL&crumb=Edge%3A+Too+Many+Requests
+2025-11-28 13:20:36,178 - ERROR - AAPL: Metadata fetch error: Expecting value: line 1 column 1 (char 0)
+2025-11-28 13:20:37,978 - ERROR - 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GOOGL?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GOOGL&crumb=Edge%3A+Too+Many+Requests
+2025-11-28 13:20:39,798 - ERROR - GOOGL: Metadata fetch error: Expecting value: line 1 column 1 (char 0)
+2025-11-28 13:20:41,527 - ERROR - 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/MSFT?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=MSFT&crumb=Edge%3A+Too+Many+Requests
+2025-11-28 13:20:43,390 - ERROR - MSFT: Metadata fetch error: Expecting value: line 1 column 1 (char 0)
+2025-11-28 13:20:45,052 - ERROR - 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMZN?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=AMZN&crumb=Edge%3A+Too+Many+Requests
+2025-11-28 13:20:46,680 - ERROR - AMZN: Metadata fetch error: Expecting value: line 1 column 1 (char 0)
+2025-11-28 13:20:56,150 - ERROR - BigQuery load failed: 400 Provided Schema does not match Table stock-analytics-platform:market_data.stocks. Field ticker is missing in new schema; reason: invalid, message: Provided Schema does not match Table stock-analytics-platform:market_data.stocks. Field ticker is missing in new schema
+2025-11-28 13:24:11,845 - ERROR - 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/AAPL?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=AAPL&crumb=Edge%3A+Too+Many+Requests
+2025-11-28 13:24:13,600 - ERROR - AAPL: metadata error: Expecting value: line 1 column 1 (char 0)
+2025-11-28 13:24:15,367 - ERROR - 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/GOOGL?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=GOOGL&crumb=Edge%3A+Too+Many+Requests
+2025-11-28 13:24:17,026 - ERROR - GOOGL: metadata error: Expecting value: line 1 column 1 (char 0)
+2025-11-28 13:24:18,803 - ERROR - 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/MSFT?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=MSFT&crumb=Edge%3A+Too+Many+Requests
+2025-11-28 13:24:20,486 - ERROR - MSFT: metadata error: Expecting value: line 1 column 1 (char 0)
+2025-11-28 13:24:22,354 - ERROR - 429 Client Error: Too Many Requests for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMZN?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=AMZN&crumb=Edge%3A+Too+Many+Requests
+2025-11-28 13:24:24,063 - ERROR - AMZN: metadata error: Expecting value: line 1 column 1 (char 0)
+2025-11-28 13:24:24,063 - ERROR - No records to upload. Exiting.
+2025-11-28 13:49:27,770 - INFO - ----- STARTING METADATA \u2192 BIGQUERY ETL -----
+2025-11-28 13:49:27,775 - INFO - BigQuery client initialized successfully.
+2025-11-28 13:49:27,775 - ERROR - metadata.json file not found.
+2025-11-28 13:50:27,272 - INFO - ----- STARTING METADATA \u2192 BIGQUERY ETL -----
+2025-11-28 13:50:27,272 - INFO - BigQuery client initialized successfully.
+2025-11-28 13:50:27,272 - ERROR - metadata.json file not found.
+2025-11-28 13:50:54,555 - INFO - ----- STARTING METADATA \u2192 BIGQUERY ETL -----
+2025-11-28 13:50:54,556 - INFO - BigQuery client initialized successfully.
+2025-11-28 13:50:54,566 - INFO - Successfully loaded metadata.json with 4 records
+2025-11-28 13:50:54,579 - INFO - Metadata successfully converted to DataFrame.
+2025-11-28 13:50:59,170 - INFO - Uploaded 4 rows to BigQuery table stock-analytics-platform.market_data.stocks successfully.
+2025-11-28 13:50:59,172 - INFO - ----- METADATA ETL COMPLETED in 4 seconds -----
+2025-11-28 13:59:34,764 - INFO - ----- STARTING PRICES \u2192 BIGQUERY ETL -----
+2025-11-28 13:59:34,764 - INFO - BigQuery client initialized successfully.
+2025-11-28 13:59:36,893 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-11-28 13:59:36,902 - ERROR - 
+1 Failed download:
+2025-11-28 13:59:36,902 - ERROR - ['AAPL']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-11-28 13:59:36,902 - WARNING - AAPL: No historical data found
+2025-11-28 13:59:37,525 - ERROR - Failed to get ticker 'GOOGL' reason: Expecting value: line 1 column 1 (char 0)
+2025-11-28 13:59:37,528 - ERROR - 
+1 Failed download:
+2025-11-28 13:59:37,528 - ERROR - ['GOOGL']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-11-28 13:59:37,529 - WARNING - GOOGL: No historical data found
+2025-11-28 13:59:38,200 - ERROR - Failed to get ticker 'MSFT' reason: Expecting value: line 1 column 1 (char 0)
+2025-11-28 13:59:38,204 - ERROR - 
+1 Failed download:
+2025-11-28 13:59:38,204 - ERROR - ['MSFT']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-11-28 13:59:38,205 - WARNING - MSFT: No historical data found
+2025-11-28 13:59:38,847 - ERROR - Failed to get ticker 'AMZN' reason: Expecting value: line 1 column 1 (char 0)
+2025-11-28 13:59:38,849 - ERROR - 
+1 Failed download:
+2025-11-28 13:59:38,850 - ERROR - ['AMZN']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-11-28 13:59:38,850 - WARNING - AMZN: No historical data found
+2025-11-28 13:59:38,850 - ERROR - No price data collected. Aborting.
+2025-11-28 14:13:02,894 - INFO - ----- STARTING PRICES \u2192 BIGQUERY ETL -----
+2025-11-28 14:13:02,896 - INFO - BigQuery client initialized successfully.
+2025-11-28 14:13:05,288 - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-11-28 14:13:05,293 - ERROR - 
+1 Failed download:
+2025-11-28 14:13:05,293 - ERROR - ['AAPL']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-11-28 14:13:05,294 - WARNING - AAPL: No historical data found
+2025-11-28 14:13:05,890 - ERROR - Failed to get ticker 'GOOGL' reason: Expecting value: line 1 column 1 (char 0)
+2025-11-28 14:13:05,901 - ERROR - 
+1 Failed download:
+2025-11-28 14:13:05,901 - ERROR - ['GOOGL']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-11-28 14:13:05,901 - WARNING - GOOGL: No historical data found
+2025-11-28 14:13:06,477 - ERROR - Failed to get ticker 'MSFT' reason: Expecting value: line 1 column 1 (char 0)
+2025-11-28 14:13:06,480 - ERROR - 
+1 Failed download:
+2025-11-28 14:13:06,480 - ERROR - ['MSFT']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-11-28 14:13:06,481 - WARNING - MSFT: No historical data found
+2025-11-28 14:13:07,119 - ERROR - Failed to get ticker 'AMZN' reason: Expecting value: line 1 column 1 (char 0)
+2025-11-28 14:13:07,125 - ERROR - 
+1 Failed download:
+2025-11-28 14:13:07,125 - ERROR - ['AMZN']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-11-28 14:13:07,125 - WARNING - AMZN: No historical data found
+2025-11-28 14:13:07,126 - ERROR - No price data collected. Aborting.
+2025-11-28 14:38:51,440 - INFO - ---- STARTING CSV \u2192 BIGQUERY UPLOAD ----
+2025-11-28 14:38:51,442 - INFO - BigQuery client initialized successfully.
+2025-11-28 14:38:51,506 - INFO - Loaded CSV with 117760 rows.
+2025-11-28 14:38:52,921 - ERROR - BigQuery upload failed: 400 POST https://bigquery.googleapis.com/upload/bigquery/v2/projects/stock-analytics-platform/jobs?uploadType=multipart: Provided Schema does not match Table stock-analytics-platform:market_data.prices. Field date has changed type from DATE to STRING
+2025-11-28 14:39:38,389 - INFO - ---- STARTING CSV \u2192 BIGQUERY UPLOAD ----
+2025-11-28 14:39:38,391 - INFO - BigQuery client initialized successfully.
+2025-11-28 14:39:38,439 - ERROR - Failed to load CSV file: 'date'
+2025-11-28 14:39:53,328 - INFO - ---- STARTING CSV \u2192 BIGQUERY UPLOAD ----
+2025-11-28 14:39:53,331 - INFO - BigQuery client initialized successfully.
+2025-11-28 14:39:53,439 - INFO - Loaded CSV with 117760 rows.
+2025-11-28 14:39:54,381 - ERROR - BigQuery upload failed: 400 POST https://bigquery.googleapis.com/upload/bigquery/v2/projects/stock-analytics-platform/jobs?uploadType=multipart: Provided Schema does not match Table stock-analytics-platform:market_data.prices. Field volume has changed type from INTEGER to FLOAT
+2025-11-28 14:42:23,524 - INFO - ---- STARTING CSV \u2192 BIGQUERY UPLOAD ----
+2025-11-28 14:42:23,526 - INFO - BigQuery client initialized successfully.
+2025-11-28 14:42:23,653 - INFO - Loaded CSV with 117760 rows.
+2025-11-28 14:42:44,202 - INFO - Successfully uploaded 117760 rows to stock-analytics-platform.market_data.prices.
+2025-11-28 14:42:44,202 - INFO - ---- CSV \u2192 BIGQUERY UPLOAD COMPLETED ----
+2025-11-28 14:46:44,213 - INFO - ---- STARTING CSV \u2192 BIGQUERY UPLOAD ----
+2025-11-28 14:46:44,214 - INFO - BigQuery client initialized successfully.
+2025-11-28 14:46:44,313 - INFO - Loaded CSV with 117760 rows.
+2025-11-28 14:47:04,424 - INFO - Successfully uploaded 117760 rows to stock-analytics-platform.market_data.prices.
+2025-11-28 14:47:04,425 - INFO - ---- CSV \u2192 BIGQUERY UPLOAD COMPLETED ----
+2025-11-28 14:52:38,436 - INFO - ---- STARTING CSV \u2192 BIGQUERY UPLOAD ----
+2025-11-28 14:52:38,438 - INFO - BigQuery client initialized successfully.
+2025-11-28 14:52:38,548 - INFO - Loaded CSV with 29440 rows.
+2025-11-28 14:52:57,532 - INFO - Successfully uploaded 29440 rows to stock-analytics-platform.market_data.prices.
+2025-11-28 14:52:57,533 - INFO - ---- CSV \u2192 BIGQUERY UPLOAD COMPLETED ----
+2025-11-28 15:16:28,490 - INFO - ---- STARTING FEATURE ENGINEERING ETL ----
+2025-11-28 15:16:28,492 - INFO - BigQuery client initialized.
+2025-11-28 15:16:32,477 - ERROR - Failed to load price data: Please install the 'db-dtypes' package to use this function.
+2025-11-28 15:17:21,838 - INFO - ---- STARTING FEATURE ENGINEERING ETL ----
+2025-11-28 15:17:21,840 - INFO - BigQuery client initialized.
+2025-11-28 15:17:24,503 - INFO - Loaded 29440 rows from prices table.
+2025-11-28 15:17:25,193 - ERROR - BigQuery upload failed: 400 POST https://bigquery.googleapis.com/upload/bigquery/v2/projects/stock-analytics-platform/jobs?uploadType=multipart: Provided Schema does not match Table stock-analytics-platform:market_data.features. Cannot add fields (field: open)
+2025-11-28 15:19:19,539 - INFO - ---- STARTING FEATURE ENGINEERING ETL ----
+2025-11-28 15:19:19,540 - INFO - BigQuery client initialized.
+2025-11-28 15:19:22,183 - INFO - Loaded 29440 rows from prices table.
+2025-11-28 15:19:47,504 - INFO - Uploaded 29316 feature rows.
+2025-11-28 15:19:47,504 - INFO - ---- FEATURE ENGINEERING ETL COMPLETED ----
+2025-11-28 17:37:22,284 - INFO - ---- STARTING RECURSIVE MODEL-AGNOSTIC PREDICTION ETL ----
+2025-11-28 17:37:26,854 - INFO - Loaded 29316 feature rows.
+2025-11-28 17:37:36,783 - INFO - Uploaded 1 predictions for AAPL.
+2025-11-28 17:37:46,346 - INFO - Uploaded 1 predictions for AMZN.
+2025-11-28 17:37:56,885 - INFO - Uploaded 1 predictions for GOOGL.
+2025-11-28 17:38:07,316 - INFO - Uploaded 1 predictions for MSFT.
+2025-11-28 17:38:07,316 - INFO - ---- RECURSIVE MODEL-AGNOSTIC PREDICTION ETL COMPLETED ----

@@ -1,0 +1,38 @@
+[
+  {
+    "ticker": "AAPL",
+    "company_name": "Apple Inc.",
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "exchange": "NASDAQ",
+    "country": "United States",
+    "market_cap": 2890000000000
+  },
+  {
+    "ticker": "GOOGL",
+    "company_name": "Alphabet Inc.",
+    "sector": "Communication Services",
+    "industry": "Internet Content & Information",
+    "exchange": "NASDAQ",
+    "country": "United States",
+    "market_cap": 1960000000000
+  },
+  {
+    "ticker": "MSFT",
+    "company_name": "Microsoft Corporation",
+    "sector": "Technology",
+    "industry": "Software—Infrastructure",
+    "exchange": "NASDAQ",
+    "country": "United States",
+    "market_cap": 3110000000000
+  },
+  {
+    "ticker": "AMZN",
+    "company_name": "Amazon.com, Inc.",
+    "sector": "Consumer Discretionary",
+    "industry": "Internet Retail",
+    "exchange": "NASDAQ",
+    "country": "United States",
+    "market_cap": 1700000000000
+  }
+]

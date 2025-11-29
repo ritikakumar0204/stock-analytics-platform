@@ -1,0 +1,28 @@
+# Core data libraries
+pandas==2.2.2
+numpy==1.26.4
+
+# Yahoo Finance data extraction
+yfinance==0.2.43
+
+# BigQuery + GCP integration
+google-cloud-bigquery==3.25.0
+google-cloud-storage==2.16.0
+google-cloud-pubsub==2.21.5
+google-cloud-bigquery-storage==2.24.0
+
+# Environment variable loader
+python-dotenv==1.0.1
+
+# Modeling
+prophet==1.1.5
+scikit-learn==1.4.2
+xgboost==2.0.3
+
+# Logging utilities (standard library, no need to install)
+# logging
+
+# Optional but useful
+pyarrow==15.0.2     # For fast parquet and BigQuery load
+tqdm==4.66.2        # Progress bars for ETL
+requests==2.31.0    # Usually installed with yfinance but explicit is safer
