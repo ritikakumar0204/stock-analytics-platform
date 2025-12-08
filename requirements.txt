@@ -19,10 +19,7 @@ prophet==1.1.5
 scikit-learn==1.4.2
 xgboost==2.0.3
 
-# Logging utilities (standard library, no need to install)
-# logging
-
 # Optional but useful
-pyarrow==15.0.2     # For fast parquet and BigQuery load
-tqdm==4.66.2        # Progress bars for ETL
-requests==2.31.0    # Usually installed with yfinance but explicit is safer
+pyarrow==11.0.0        # SAFE version for Prophet + Pandas
+tqdm==4.66.2
+requests==2.31.0
