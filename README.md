@@ -60,14 +60,14 @@ Subject to change
 ---
 
 ## 📊 Analytical SQL Reports
-1. Average daily volatility by ticker or sector  
-2. Top-performing stocks by month or quarter  
-3. Correlation between stocks and market indices  
-4. Model prediction accuracy trend over time  
-5. Moving-average crossover alerts  
-6. Percentage price change by period  
-7. Feature importance / lag effect summary  
-8. ETL latency and API call success rate  
+1. Average volatility  
+2. Daily return rank
+3. MA crossover  
+4. PCT change monthly  
+5. Rolling drawdown
+6. Ticker correlation 
+7. Top stocks 30 days
+8. Volatility shock
 
 
 ---
