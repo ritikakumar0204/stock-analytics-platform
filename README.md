@@ -71,6 +71,25 @@ Subject to change
 
 
 ---
+## 🚀 How to Run the Project
+
+### **1️⃣ Install Dependencies**
+Clone the repository and install all required packages:
+```bash
+git clone https://github.com/ritikakumar0204/stock-analytics-platform.git
+cd stock-analytics-platform
+pip install -r requirements.txt
+```
+---
+### 2️⃣ Launch the Streamlit App
+
+Run the dashboard locally:
+
+```bash
+streamlit run app.py
+```
+
+----
 
 ## 📈 Progress Tracking
 Team progress and milestone completion have been documented in  
