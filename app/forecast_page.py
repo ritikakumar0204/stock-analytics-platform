@@ -647,6 +647,9 @@ def render_forecast():
             .rename(columns={"Date": "ds", "Close": "y"})
             .sort_values("ds")
         )
+        # keep it snappy for AAPL by limiting to recent points
+        if ticker == "AAPL" and len(df) > 200:
+            df = df.tail(1000)
         if df.empty:
             st.info(f"No data available for {ticker}.")
             return

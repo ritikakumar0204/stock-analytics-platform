@@ -22,7 +22,7 @@ nav_sections = [
     ("Home", [("Home", "📈")]),
     ("Data Ingestion", [("Ingestion", "⚙️")]),
     ("Analytics", [("EDA", "📊"), ("Reports", "📑"), ("Ad Hoc Report", "🧾")]),
-    ("Forecast", [("Forecast", "🔮")]),
+    ("Forecast", [("Forecast", "🔮"), ("All Ticker Forecast", "📈")]),
 ]
 
 if "selected_tab" not in st.session_state:
@@ -49,6 +49,7 @@ DATASET_ID = os.getenv("GCP_DATASET_ID")
 SERVICE_ACCOUNT_KEY = os.getenv("GCP_SERVICE_ACCOUNT_KEY")
 PRICES_TABLE = f"{PROJECT_ID}.{DATASET_ID}.prices" if PROJECT_ID and DATASET_ID else None
 HISTORICAL_CSV = PROJECT_ROOT / "dataset" / "historical_stocks_clean.csv"
+ALL_TICKER_CSV = PROJECT_ROOT / "dataset" / "all_ticker.csv"
 
 
 @st.cache_resource(show_spinner=False)
@@ -434,7 +435,17 @@ LIMIT 10"""
                     else:
                         st.success(f"Returned {len(df)} rows.")
                         st.dataframe(df, use_container_width=True)
-
+#----------------All ticker -------------------
+elif page == "All Ticker Forecast":
+    st.title("All Ticker Forecast")
+    if not ALL_TICKER_CSV.exists():
+        st.error(f"File not found: {ALL_TICKER_CSV}")
+    else:
+        try:
+            df = pd.read_csv(ALL_TICKER_CSV)
+            st.dataframe(df, use_container_width=True)
+        except Exception as exc:
+            st.error(f"Failed to load {ALL_TICKER_CSV}: {exc}")
 
 # -------- FORECAST --------
 elif page == "Forecast":
